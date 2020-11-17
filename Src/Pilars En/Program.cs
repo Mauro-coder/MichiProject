@@ -4,7 +4,7 @@ namespace MichiProject
 {
     class Program
     {
-        static void Main(string[] args)
+        static void NotMain(string[] args)
         {
             
             Print print = new Print(); /* */

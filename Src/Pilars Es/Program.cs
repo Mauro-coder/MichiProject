@@ -6,7 +6,6 @@ namespace MichiProject
     {
         static void Main(string[] args)
         {
-            
             Print print = new Print(); /* Aqui se instancia la clase print 
                                           (Se crea una nuevo objeto llamado print a partir de su molde o plano) */
 

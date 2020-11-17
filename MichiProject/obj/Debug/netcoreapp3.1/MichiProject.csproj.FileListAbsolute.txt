@@ -1,0 +1,13 @@
+C:\Users\edmun\source\repos\MichiProject\MichiProject\bin\Debug\netcoreapp3.1\MichiProject.exe
+C:\Users\edmun\source\repos\MichiProject\MichiProject\bin\Debug\netcoreapp3.1\MichiProject.deps.json
+C:\Users\edmun\source\repos\MichiProject\MichiProject\bin\Debug\netcoreapp3.1\MichiProject.runtimeconfig.json
+C:\Users\edmun\source\repos\MichiProject\MichiProject\bin\Debug\netcoreapp3.1\MichiProject.runtimeconfig.dev.json
+C:\Users\edmun\source\repos\MichiProject\MichiProject\bin\Debug\netcoreapp3.1\MichiProject.dll
+C:\Users\edmun\source\repos\MichiProject\MichiProject\bin\Debug\netcoreapp3.1\MichiProject.pdb
+C:\Users\edmun\source\repos\MichiProject\MichiProject\obj\Debug\netcoreapp3.1\MichiProject.csprojAssemblyReference.cache
+C:\Users\edmun\source\repos\MichiProject\MichiProject\obj\Debug\netcoreapp3.1\MichiProject.AssemblyInfoInputs.cache
+C:\Users\edmun\source\repos\MichiProject\MichiProject\obj\Debug\netcoreapp3.1\MichiProject.AssemblyInfo.cs
+C:\Users\edmun\source\repos\MichiProject\MichiProject\obj\Debug\netcoreapp3.1\MichiProject.csproj.CoreCompileInputs.cache
+C:\Users\edmun\source\repos\MichiProject\MichiProject\obj\Debug\netcoreapp3.1\MichiProject.dll
+C:\Users\edmun\source\repos\MichiProject\MichiProject\obj\Debug\netcoreapp3.1\MichiProject.pdb
+C:\Users\edmun\source\repos\MichiProject\MichiProject\obj\Debug\netcoreapp3.1\MichiProject.genruntimeconfig.cache

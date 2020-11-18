@@ -11,8 +11,4 @@
     <None Remove="Explicaciones\**" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Src\" />
-  </ItemGroup>
-
 </Project>

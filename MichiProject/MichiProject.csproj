@@ -6,15 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Explicaciones\ExamplesTemplates.cs" />
-    <Compile Remove="Explicaciones\Readme.cs" />
-    <Compile Remove="Explicaciones\Teory.cs" />
+    <Compile Remove="Explicaciones\**" />
+    <EmbeddedResource Remove="Explicaciones\**" />
+    <None Remove="Explicaciones\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Explicaciones\ExamplesTemplates.cs" />
-    <None Include="Explicaciones\Readme.cs" />
-    <None Include="Explicaciones\Teory.cs" />
+    <Folder Include="Src\" />
   </ItemGroup>
 
 </Project>

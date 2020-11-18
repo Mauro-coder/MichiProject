@@ -22,6 +22,8 @@ namespace MichiProject
             Console.WriteLine("1- Herencia");
             Console.WriteLine("2- Encapsulamiento");
             Console.WriteLine("3- Polimorfismo");
+            Console.WriteLine(Environment.NewLine);
+
         }
     }
 }

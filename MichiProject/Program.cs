@@ -1,15 +1,38 @@
-﻿using System;
+﻿//#########################################
+//# Inspirado en te lo expico con gatitos #
+//#########################################
 
+
+// Un using es...
+using System;
+
+// Un namespace es...
 namespace MichiProject
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Print print = new Print(); /* Aqui se instancia la clase print 
-                                          (Se crea una nuevo objeto llamado print a partir de su molde o plano) */
+            // Aqui se instancia la clase print (Se crea una nuevo objeto llamado print a partir de su molde o plano)
+            MainMenu print = new MainMenu();
+            // Posteriormentr se llama/invoca/usa el metodo print
+            //print.PrintMenu();
 
-            print.PrintMenu(); /* Aqui se llama/invoca/usa el metodo print */
+            // Nuevamente se instancia una clase y se usa uno de sus metodos 
+            ExecuteExample executeExample = new ExecuteExample();
+            executeExample.PilarsPOO();
+
+            Cat snowBall = new Cat()
+            {
+                Name = "Bola de nieve",
+                IsHungry = true,
+                IsTired = true,
+                Message = "Prrrrrrrrrrrrr :3"
+            };
+            snowBall.Talk();
+            snowBall.Eat();
+            snowBall.Talk();
         }
     }
 }
+

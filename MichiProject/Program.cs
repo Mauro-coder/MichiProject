@@ -6,7 +6,6 @@
 // Un using es...
 using System;
 using MichiProject.Animal;
-using MichiProject.Species;
 
 // Un namespace es...
 namespace MichiProject
@@ -21,16 +20,9 @@ namespace MichiProject
             print.PrintMenu();
 
             // Nuevamente se instancia una clase y se usa uno de sus metodos 
-            ExecutePilarExample executeExample = new ExecutePilarExample();
-            executeExample.PilarsPOO();
+            Redirigir executeExample = new Redirigir();
+            executeExample.Redirigir_();
 
-
-            #region Just Temporal Comment, Delete It!
-
-            Bird paloma = new Bird("Paloma", "White");
-            paloma.Eat();
-            paloma.Fly();
-            #endregion
 
         }
     }

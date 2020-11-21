@@ -11,4 +11,14 @@
     <None Remove="Explicaciones\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Animal\Invertebrado\" />
+    <Folder Include="Animal\Unicelular\" />
+    <Folder Include="Animal\Vertebrado\Ave\" />
+    <Folder Include="Animal\Vertebrado\Anfibio\" />
+    <Folder Include="Animal\Vertebrado\Mamifero\" />
+    <Folder Include="Animal\Vertebrado\Reptil\" />
+    <Folder Include="Animal\Vertebrado\Pez\" />
+  </ItemGroup>
+
 </Project>

@@ -1,43 +1,42 @@
+using MichiProject.Animal.Enums;
+using MichiProject.Animal.Interfaces;
 using System;
 
 namespace MichiProject.Animal
 {
-    public class Animal : IAnimal
+    /// <summary>
+    /// Super clase del reino animal
+    /// Aqui van todos los atributos comunes de los animales
+    /// </summary>
+    public abstract class Animal
     {
-        private string Name { get; }
-        private string Color { get; }
-        private HungerLevel HungerLevel { get; set; } = HungerLevel.Satisfied;
+        /// <summary>
+        /// Clasificacion filogenetica de menos especifico a mas especifico
+        /// </summary>
+        #region [Propiedades]
+        public string Reino { get; set; }
+        public string Filo { get; set; }
+        public string Clase { get; set; }
+        public string Orden { get; set; }
+        public string Familia { get; set; }
+        public string Genero { get; set; }
+        public string Especie { get; set; }
+        #endregion [Propiedades]
 
-        protected Animal(string name, string color)
+        #region[Constructor]
+         public Animal()
         {
-            Name = name;
-            Color = color;
+            this.Reino = EnumReino.Animal.ToString();
         }
+        #endregion[Constructor]
 
-        public string GetName()
-        {
-            Console.WriteLine($"Name: {Name}");
-            return Name;
-        }
-
-        public string GetColor()
-        {
-            Console.WriteLine($"Color: {Color}");
-            return Name;
-        }
-
-        public HungerLevel Eat()
-        {
-            HungerLevel = HungerLevel switch
-            {
-                HungerLevel.Starving => HungerLevel.Satisfied,
-                HungerLevel.Satisfied => HungerLevel.Full,
-                HungerLevel.Full => throw new Exception("I'm full!"),
-                _ => throw new ArgumentOutOfRangeException($"Weak, I've died!")
-            };
-
-            Console.WriteLine($"HungerLevel: {HungerLevel:G}");
-            return HungerLevel;
-        }
+        #region [Metodos Abstractos]
+        // Al usar virtual el compiladir no obliga a implementarlo
+        public virtual void Alimentacion() { }
+        public virtual void Comunicacion() { }
+        public virtual void Movimiento() { }
+        public virtual void Reproduccion() { }
+        public virtual void Respiracion() { }
+        #endregion [Metodos Abstractos]
     }
 }

@@ -1,7 +1,10 @@
-namespace MichiProject.Animal
+using MichiProject.Animal.Enums;
+
+namespace MichiProject.Animal.Interfaces
 {
     public interface IAnimal
     {
-        public HungerLevel Eat();
+        public EnumNivelHambre Eat();
+
     }
 }
